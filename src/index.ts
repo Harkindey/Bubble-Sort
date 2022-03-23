@@ -1,3 +1,6 @@
 console.log('hi');
 
-const logSomrthing = () => {};
+const logSomrthing = (string: string) => {
+  console.log(string);
+};
+logSomrthing('thing');
